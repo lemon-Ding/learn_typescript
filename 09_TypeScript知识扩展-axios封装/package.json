@@ -1,0 +1,27 @@
+{
+  "name": "ts-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "webpack serve",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/lodash": "^4.14.197",
+    "@types/react": "^18.2.20",
+    "html-webpack-plugin": "^5.5.3",
+    "ts-loader": "^9.4.4",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "dependencies": {
+    "axios": "^1.2.0-alpha.1",
+    "lodash": "^4.17.21",
+    "react": "^18.2.0"
+  }
+}
